@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Prichi</title>
+</head>
+
+<body>
+    <header>
+        <h6 style="font-size:4em; text-align: center; filter: drop-shadow(10px 10px 0 black);">Prichi</h6>
+        <h6 style="font-size:2em; text-align: center; filter:drop-shadow(5px 5px 0 black);">By Frank Alfano</h6>
+    </header>
+    <div id="game"></div>
+
+    <!-- External libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.5.8/browser/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+    <!-- Javascript files -->
+    <script src="js/utils.js"></script>
+    <script src="js/gamemanager.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/chesspiece.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <div class="info-section">
+        <h1>Note!</h1>
+        <p>Click the tutorial button in-game to see the rules and how to play. Check out the about page <a href="about.html">here</a> for more information about the game as well as the documentation.</p>
+    </div>
+    <div class="info-section">
+        <h1>Version Log</h1>
+        <p>
+            v1.0.0 (12/12/21)
+            <br>- Submission for final project
+
+            <br><br>v1.0.1 (12/13/21)
+            <br>- Fixed tile highlight bugs and inconsistancies
+            <br>- Fixed black pieces breaking when they have no available moves on their turn
+
+            <br><br>v1.1.1 (12/16/21)
+            <br>- Fixed black piece moving and tile highlighting bugs
+            <br>- Added special abilities to black pieces (cracked, clone, fast)
+            <br>- Added indication on whose turn it is during a level
+            <br> - Updated tutorial screen to give information about newly added mechanics
+            <br>- Added a scaling difficulty as you progress through more levels
+            <br>- Added classic and hard mode for varying difficulties in gameplay
+            <br>- Added credits scene
+            <br>- General improvements to code
+
+            <br><br>v1.1.2 (12/17/21)
+            <br>- Fixed map filling up entire screen at later levels
+            <br>--- Added more sound effects
+            <br>--- Added more stats at the end of levels as well as giving a final score
+        </p>
+    </div>
+    <!-- <div class="info-section">
+        <h1>Known Bugs</h1>
+        <p>
+        </p>
+    </div> -->
+</body>
+
+</html>
